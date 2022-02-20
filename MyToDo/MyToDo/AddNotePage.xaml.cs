@@ -19,6 +19,15 @@ namespace MyToDo
             InitializeComponent();
         }
 
+        protected override void OnAppearing()
+        {
+            var note = (Note)BindingContext;
+            if (!string.IsNullOrEmpty(note.FileName))
+            {
+                editor.Text = File.ReadAllText(note.FileName);
+            }
+        }
+
         private async void OnSaveButtonClicked(object sender, EventArgs e)
         {
             var note = (Note)BindingContext;
@@ -33,9 +42,15 @@ namespace MyToDo
             await Navigation.PopModalAsync();
         }
 
-        private void OnDeleteButtonClicked(object sender, EventArgs e)
+        private async void OnDeleteButtonClicked(object sender, EventArgs e)
         {
-
+            var note = (Note)BindingContext;
+            if (File.Exists(note.FileName))
+            {
+                File.Delete(note.FileName);
+            }
+            editor.Text = string.Empty;
+            await Navigation.PopModalAsync();
         }
     }
 }
