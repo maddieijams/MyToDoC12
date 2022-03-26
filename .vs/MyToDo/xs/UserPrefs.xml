@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{F1421106-B7C7-4C10-8452-513967DD2460}|Default">
+  <MonoDevelop.Ide.ItemProperties.MyToDo.Android PreferredExecutionTarget="Android.pixel_2_nougat_7_1_-_api_25" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyToDo/MyToDo/MainPage.xaml.cs">
+    <Files>
+      <File FileName="MyToDo/MyToDo/AddNotePage.xaml.cs" Line="14" Column="1" />
+      <File FileName="MyToDo/MyToDo/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="MyToDo/MyToDo/MainPage.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyToDo" expanded="True">
+            <Node name="MyToDo" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="AddNotePage.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MyToDo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.87B06F8D-C508-4A13-B46E-7CB0DFA9269A" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
